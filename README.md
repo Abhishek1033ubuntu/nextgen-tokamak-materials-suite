@@ -89,3 +89,16 @@ High-throughput *ab initio* material discovery, GPU-accelerated molecular dynami
 ## License
 
 Distributed under the MIT License. See `LICENSE` for details.
+
+If you reference, utilize, or cross-publish data, code, or material candidates from this suite in academic research, patent applications, or commercial design studies, please cite this work using the following BibTeX entry:
+```
+@software{Singh_NextGen_Tokamak_Materials_2026,
+  author       = {Singh, Abhishek},
+  title        = {NextGen Tokamak Materials Suite: First-Principles Reactor Upgrade Matrix},
+  year         = {2026},
+  publisher    = {GitHub},
+  journal      = {GitHub Repository},
+  howpublished = {\url{[https://github.com/Abhishek1033ubuntu/nextgen-tokamak-materials-suite](https://github.com/Abhishek1033ubuntu/nextgen-tokamak-materials-suite)}},
+  note         = {Developed in technical collaboration with Gemini AI on Google Colab CUDA Infrastructure}
+}
+```
