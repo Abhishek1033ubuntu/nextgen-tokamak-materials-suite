@@ -83,7 +83,7 @@ High-throughput *ab initio* material discovery, GPU-accelerated molecular dynami
 * **Financial Sponsorship:** [Sponsor on GitHub](https://github.com/sponsors/Abhishek1033ubuntu) or contribute via [PayPal](https://www.paypal.me/Abhishek1033ubuntu)
 * **Institutional Grants & Compute Credits:** For lab-scale partnerships, cloud compute sponsorship (AWS/GCP/NVIDIA), or grant support, please reach out directly at `abhishek.singh.941491229013@proton.me`.
 
-* **100% of community sponsorship directly funds GPU compute hours (NVIDIA A100/H100 clusters), expanded simulation datasets, and open-access tool development for the global fusion research community.*
+**100% of community sponsorship directly funds GPU compute hours (NVIDIA A100/H100 clusters), expanded simulation datasets, and open-access tool development for the global fusion research community.*
 ---
 
 ## License
