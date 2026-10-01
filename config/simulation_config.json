@@ -1,0 +1,17 @@
+{
+    "project_name": "nextgen-tokamak-materials-suite",
+    "version": "1.0.0",
+    "dft_engine": "CHGNet-v0.3.0",
+    "device": "cuda",
+    "convergence": {
+        "fmax_threshold_eV_A": 0.05,
+        "max_relaxation_steps": 200,
+        "finite_difference_strain": 0.005
+    },
+    "phase_targets": {
+        "phase_1": {"name": "Divertor Armor", "elements": ["W", "Ta", "Cr", "V"], "ratios": [0.25, 0.25, 0.25, 0.25]},
+        "phase_2": {"name": "Structural Wall", "elements": ["V", "Cr", "Ti"], "ratios": [0.92, 0.04, 0.04]},
+        "phase_3": {"name": "Liquid Breeder", "elements": ["Pb", "Li"], "ratios": [0.83, 0.17]},
+        "phase_4": {"name": "HTS Magnets", "formula": "YBa2Cu3O7"}
+    }
+}
