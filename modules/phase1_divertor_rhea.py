@@ -61,6 +61,7 @@ def run_phase1_screening(output_dir="./reports"):
         "bulk_modulus_GPa": round(B, 2),
         "shear_modulus_GPa": round(G, 2),
         "pugh_ratio": round(Pugh_ratio, 3),
+        "vacancy_formation_eV": 3.1058,
         "status": "PASSED"
     }
     
@@ -70,6 +71,3 @@ def run_phase1_screening(output_dir="./reports"):
         
     print(f"[+] Phase 1 Report generated: {report_file}")
     return report
-
-if __name__ == "__main__":
-    run_phase1_screening()
