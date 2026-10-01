@@ -1,11 +1,12 @@
 # Subatomic Tokamak Materials Suite: First-Principles Reactor Upgrade Matrix
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Framework: ASE](https://img.shields.io/badge/Framework-ASE-green.svg)](https://wiki.fysik.dtu.dk/ase/)
-[![DFT Engine: CHGNet](https://img.shields.io/badge/DFT_Engine-CHGNet_v0.3.0-orange.svg)](https://github.com/materialsvirtuallab/chgnet)
-[![CUDA Accelerated](https://img.shields.io/badge/CUDA-Accelerated-76B900.svg?logo=nvidia)](https://developer.nvidia.com/cuda-zone)
-[![Fusion Performance](https://img.shields.io/badge/Net_Power_Gain-%2B524.2_MWe-brightgreen.svg)]()
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![Framework: ASE](https://img.shields.io/badge/Framework-ASE-green.svg)](https://wiki.fysik.dtu.dk/ase/) 
+[![DFT Engine: CHGNet](https://img.shields.io/badge/DFT_Engine-CHGNet_v0.3.0-orange.svg)](https://github.com/materialsvirtuallab/chgnet) 
+[![CUDA Accelerated](https://img.shields.io/badge/CUDA-Accelerated-76B900.svg?logo=nvidia)](https://developer.nvidia.com/cuda-zone) 
+[![Fusion Performance](https://img.shields.io/badge/Net_Power_Gain-%2B524.2_MWe-brightgreen.svg)]() 
+[![Sponsor](https://img.shields.io/badge/Sponsor-nextgen--tokamak--materials-ea4aaa?style=flat&logo=github-sponsors)](https://github.com/sponsors/Abhishek1033ubuntu)  
 
 A computational materials framework and multi-physics solver engineered to optimize Tokamak plasma-facing components, structural walls, breeder blankets, and magnetic coils using $ab\ initio$ Machine Learning Density Functional Theory (CHGNet) and Atomic Simulation Environment (ASE).
 
@@ -38,12 +39,12 @@ Replacing legacy materials in tokamak reactors unlocks a new physical design spa
 
 ## Core Subsystem Validations
 
-| Phase / Subsystem | Legacy Baseline | Upgraded Candidate | Key Validated Metric | Engineering Impact |
+| Subsystem | Legacy Baseline | Upgraded Candidate | Key Validated Metric | Engineering Impact |
 | :--- | :--- | :--- | :--- | :--- |
-| **Phase 1: Divertor Armor** | Pure Tungsten ($\text{W}$) | **$\text{W}_{0.25}\text{Ta}_{0.25}\text{Cr}_{0.25}\text{V}_{0.25}$** | $B/G = 15.76$, $E_v^f = 3.10\text{ eV}$ | Eliminates brittle thermal shock cracking; high irradiation self-healing. |
-| **Phase 2: Structural Wall** | RAFM Steel (EUROFER97) | **$\text{V}_{0.92}\text{Cr}_{0.04}\text{Ti}_{0.04}$** | Paramagnetic ($\mu_r = 1.0$), $B/G = 14.17$ | Eliminates magnetic field ripple/torque; raises blanket limit to $750^\circ\text{C}$. |
-| **Phase 3: Breeder Blanket**| Solid Lithium | **$\text{Pb}_{0.83}\text{Li}_{0.17}$ Eutectic** | $E_{\text{ground}} = -3.45\text{ eV/atom}$ | Enables continuous tritium breeding ($\text{TBR} = 1.15$) and liquid heat extraction. |
-| **Phase 4: Field Magnets** | $\text{Nb}_3\text{Sn}$ ($12\text{ T}$) | **$\text{REBCO}$ ($\text{YBa}_2\text{Cu}_3\text{O}_7$)** | $B = 20.0\text{ Tesla}$ ($20\text{--}77\text{ K}$) | $7.7\times$ increase in fusion power density via $P \propto B^4$ scaling. |
+| **Phase 1: Divertor Armor** | Pure Tungsten (W) | **W₀.₂₅Ta₀.₂₅Cr₀.₂₅V₀.₂₅ RHEA** | B/G = 15.76, E<sub>v</sub><sup>f</sup> = 3.10 eV | Eliminates brittle thermal shock cracking; high irradiation self-healing. |
+| **Phase 2: Structural Wall** | RAFM Steel (EUROFER97) | **V₀.₉₂Cr₀.₀₄Ti₀.₀₄ Matrix** | Paramagnetic (μᵣ = 1.0), B/G = 14.17 | Eliminates magnetic field ripple & torque; raises blanket limit to 750°C. |
+| **Phase 3: Breeder Blanket** | Solid Lithium | **Pb₀.₈₃Li₀.₁₇ Eutectic** | E<sub>ground</sub> = -3.45 eV/atom | Enables continuous tritium breeding (TBR = 1.15) & liquid heat extraction. |
+| **Phase 4: Field Magnets** | Nb₃Sn (12 T) | **REBCO (YBa₂Cu₃O₇)** | B = 20.0 Tesla (20–77 K) | 7.7× increase in fusion power density via P ∝ B⁴ scaling. |
 
 ---
 
@@ -71,6 +72,18 @@ python run_full_pipeline.py
 
 ```
 
+---
+
+## 💖 Research Funding & Sponsorship
+
+`nextgen-tokamak-materials-suite` is freely accessible under the MIT License to accelerate global fusion energy research and high-field reactor design.
+
+High-throughput *ab initio* material discovery, GPU-accelerated molecular dynamics, and machine learning DFT workflows require substantial compute resources. If your laboratory, organization, or enterprise derives commercial or academic value from this suite, consider supporting our ongoing computational work:
+
+* **Financial Sponsorship:** [Sponsor on GitHub](https://github.com/sponsors/Abhishek1033ubuntu) or contribute via [PayPal](https://www.paypal.me/Abhishek1033ubuntu)
+* **Institutional Grants & Compute Credits:** For lab-scale partnerships, cloud compute sponsorship (AWS/GCP/NVIDIA), or grant support, please reach out directly at `abhishek.singh.941491229013@proton.me`.
+
+*100% of community sponsorship directly funds GPU compute hours (NVIDIA A100/H100 clusters), expanded simulation datasets, and open-access tool development for the global fusion research community.*
 ---
 
 ## License
