@@ -17,27 +17,20 @@ Replacing legacy materials in tokamak reactors unlocks a new physical design spa
 
 
 ```
-
-```
                        TOKÁMAK UPGRADE ARCHITECTURE
 
-```
+
 
 [ Phase 1: Divertor Armor ]   [ Phase 2: Structural Wall ]   [ Phase 3: Breeder Blanket ]
 
 * Candidate: W-Ta-Cr-V RHEA    * Candidate: Non-Mag V-4Cr-4Ti * Candidate: Eutectic Pb-17Li
 * Heat Limit: 20 MW/m²        * Zero Magnetic Ripple         * Temp Limit: 750°C (Brayton)
 * B/G Ratio: 15.76            * Temp Limit: 750°C            * TBR: 1.15
-```
-                                     |
-                                     v
-                      [ Phase 4: Field Magnets ]
-                      * Candidate: REBCO (YBa2Cu3O7)
-                      * Magnetic Field: B = 20 Tesla
-
-```
-
-
+                                                                           |
+                                                                           v
+                                                            [ Phase 4: Field Magnets ]
+                                                            * Candidate: REBCO (YBa2Cu3O7)
+                                                            * Magnetic Field: B = 20 Tesla
 
 ```
 
