@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "NextGen Tokamak Materials Suite: First-Principles Reactor Upgrade Matrix"
+message: "If you use this software, simulation datasets, or multi-physics evaluation models, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Singh"
+    given-names: "Abhishek"
+    email: "abhishek.singh.941491229013@proton.me"
+    website: "https://github.com/Abhishek1033ubuntu"
+repository-code: "https://github.com/Abhishek1033ubuntu/nextgen-tokamak-materials-suite"
+url: "https://github.com/Abhishek1033ubuntu/nextgen-tokamak-materials-suite"
+abstract: >-
+  An ab initio machine learning Density Functional Theory (CHGNet + ASE + Pymatgen) multi-physics 
+  solver and materials screening framework designed to optimize tokamak plasma-facing components, 
+  non-ferromagnetic structural walls, eutectic breeder blankets, and high-field magnetic coils.
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-01"
+keywords:
+  - fusion energy
+  - tokamak
+  - density functional theory
+  - chgnet
+  - atomic simulation environment
+  - refractory high-entropy alloys
+  - rebco
+  - superconductors
+  - materials science
+  - multi-physics
