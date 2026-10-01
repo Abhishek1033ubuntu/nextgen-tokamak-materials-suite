@@ -1,0 +1,8 @@
+{
+    "phase": "Phase 3 - Liquid Breeder Blanket",
+    "candidate": "Pb0.83-Li0.17 Eutectic",
+    "energy_per_atom_eV": -3.4596,
+    "volume_per_atom_A3": 29.83,
+    "tritium_breeding_ratio": 1.15,
+    "status": "PASSED"
+}

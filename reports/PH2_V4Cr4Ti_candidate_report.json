@@ -1,0 +1,10 @@
+{
+    "phase": "Phase 2 - Non-Ferromagnetic Structural Wall",
+    "candidate": "V0.92-Cr0.04-Ti0.04 Alloy",
+    "magnetic_property": "Paramagnetic (Zero Ripple)",
+    "energy_per_atom_eV": -9.0567,
+    "bulk_modulus_GPa": 256.44,
+    "shear_modulus_GPa": 18.09,
+    "pugh_ratio": 14.178,
+    "status": "PASSED"
+}

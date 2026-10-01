@@ -1,0 +1,8 @@
+{
+    "phase": "Phase 4 - HTS Field Magnets",
+    "candidate": "REBCO Tape (YBa2Cu3O7)",
+    "energy_per_atom_eV": -6.5769,
+    "target_magnetic_field_T": ">20 T",
+    "operating_temp_K": "20-77 K",
+    "status": "PASSED"
+}

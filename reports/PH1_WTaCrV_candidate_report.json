@@ -1,0 +1,10 @@
+{
+    "phase": "Phase 1 - Divertor Armor",
+    "candidate": "W0.25-Ta0.25-Cr0.25-V0.25 RHEA",
+    "energy_per_atom_eV": -10.9205,
+    "bulk_modulus_GPa": 238.95,
+    "shear_modulus_GPa": 15.16,
+    "pugh_ratio": 15.766,
+    "vacancy_formation_eV": 3.1058,
+    "status": "PASSED"
+}
