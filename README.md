@@ -62,8 +62,9 @@ Replacing legacy materials in tokamak reactors unlocks a new physical design spa
 
 ```bash
 # Clone repository
-git clone [https://github.com/Abhishek1033ubuntu/subatomic-tokamak-materials.git](https://github.com/Abhishek1033ubuntu/subatomic-tokamak-materials.git)
-cd subatomic-tokamak-materials
+git clone [https://github.com/Abhishek1033ubuntu/https://github.com/Abhishek1033ubuntu/nextgen-tokamak-materials-suite.git](https://github.com/Abhishek1033ubuntu/nextgen-tokamak-materials-suite.git)
+
+cd nextgen-tokamak-materials-suite
 
 # Install dependencies
 pip install -r requirements.txt
