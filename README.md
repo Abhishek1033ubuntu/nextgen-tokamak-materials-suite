@@ -7,6 +7,7 @@
 [![CUDA Accelerated](https://img.shields.io/badge/CUDA-Accelerated-76B900.svg?logo=nvidia)](https://developer.nvidia.com/cuda-zone) 
 [![Fusion Performance](https://img.shields.io/badge/Net_Power_Gain-%2B524.2_MWe-brightgreen.svg)]() 
 [![Sponsor](https://img.shields.io/badge/Sponsor-nextgen--tokamak--materials-ea4aaa?style=flat&logo=github-sponsors)](https://github.com/sponsors/Abhishek1033ubuntu) 
+[![Sponsor via PayPal](https://img.shields.io/badge/Sponsor-PayPal-blue.svg?style=flat&logo=paypal)](https://paypal.me/Abhishek1033ubuntu) 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23088408-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23088408)  
 
 A computational materials framework and multi-physics solver engineered to optimize Tokamak plasma-facing components, structural walls, breeder blankets, and magnetic coils using $ab\ initio$ Machine Learning Density Functional Theory (CHGNet) and Atomic Simulation Environment (ASE).
